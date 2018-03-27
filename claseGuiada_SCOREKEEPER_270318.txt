@@ -1,0 +1,36 @@
+1. SCOREKEEPER
+Imagina que estás jugando un juego con algunas amigas y quieres ir registrando 
+el puntaje de cada una. Crea un object llamado scores donde los keys o propiedades
+ son los nombres de tus amigas, y los valores serán los puntajes 
+(todos empiezan con 0).
+
+Escribe una función que toma dos argumentos, el nombre de tu amiga
+ y la cantidad de puntos nuevos que ha obtenido, y que actualice los puntos de 
+la jugadora en el object scores. También escribe una función que imprima en la
+ consola el total de los puntos.
+
+***instrucciones:
+	+llevar un registro del puntaje de c/jugador
+
+	+var scores={
+		name1: pts,
+		name2: pts,
+		}
+		
+		suma de todos los pts=0
+
+orden en los que seguiremos las instrucciones
+	1. funcion (name,pts)
+	2. actualizar pts en objetos (scores)
+	3. imprimir todos los pts en consola
+
+***Pseudocodigo
+	1. definir el objeto SCORES
+	2. crear jugadores
+	3. agregar pts a cada jugador
+	4. imprimir el SCORE de todos los jugadores
+
+***Elementos/Funciones
+	1. create player (obj, name)
+	2. addPoints(name,pts)
+	3. printAllPoints()
